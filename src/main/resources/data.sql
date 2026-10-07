@@ -1,0 +1,17 @@
+INSERT INTO messages (code, name, message) VALUES
+('0000', 'SUCCESS',              'Operación realizada con éxito'),
+('0400', 'VALIDATION_ERROR',     'Los datos de la solicitud no son válidos'),
+('0401', 'FIELD_REQUIRED',       'El campo %s es obligatorio'),
+('0402', 'EMAIL_INVALID',        'El formato del correo no es válido'),
+('0403', 'PASSWORD_INVALID',     'La contraseña no cumple con el formato requerido'),
+('0404', 'MALFORMED_REQUEST',    'El cuerpo de la solicitud no es un JSON válido'),
+('0405', 'FIELD_TOO_LONG',       'El campo %s excede el largo máximo permitido'),
+('0406', 'METHOD_NOT_ALLOWED',   'El método HTTP no está permitido para este recurso'),
+('0407', 'MEDIA_TYPE_NOT_SUPPORTED', 'El tipo de contenido no está soportado'),
+('0501', 'TOKEN_INVALID',        'Token inválido, expirado o ausente'),
+('0502', 'INVALID_TOKEN',        'El token es inválido o ha expirado'),
+('0503', 'INVALID_CREDENTIALS',  'Usuario o contraseña incorrectos'),
+('0600', 'DUPLICATE',            'El registro ya existe'),
+('0601', 'EMAIL_ALREADY_EXISTS', 'El correo ya está registrado'),
+('0701', 'NOT_FOUND',            'Recurso no encontrado'),
+('9999', 'INTERNAL_ERROR',       'Ocurrió un error interno, intente nuevamente');
